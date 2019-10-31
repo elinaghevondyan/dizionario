@@ -1,7 +1,13 @@
 <h1>Modi di dire</h1>
 
+<h4>Search for the preferred expression</h4>
+<div class="search-word">
+    <input type="text" class="form-control" placeholder="search for the preferred modi di dire" name="search"
+           [(ngModel)]="searchText"/>
+</div>
+
 <ul>
-    <li *ngFor="let word of words">
+    <li *ngFor="let word of words | filter:searchText">
         <h2>{{word.id}}</h2>
         <p>{{word.italian}}</p>
         <p>{{word.translation}}</p>
