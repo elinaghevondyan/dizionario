@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {WORDS} from '../words-list';
-import { NgModule } from '@angular/core';
-
+import {Word} from '../word';
 
 @Component({
   selector: 'app-words',
@@ -10,12 +9,17 @@ import { NgModule } from '@angular/core';
 })
 export class WordsComponent implements OnInit {
 
+  constructor() { }
+
   words = WORDS;
   searchText;
 
-  constructor() { }
+  selectedWord: Word;
 
   ngOnInit() {
+  }
+  onSelect(word: Word): void {
+    this.selectedWord = word;
   }
 
 }
