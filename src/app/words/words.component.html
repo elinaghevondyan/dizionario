@@ -2,14 +2,7 @@
 
 <h4>Search for the preferred expression</h4>
 
-<div *ngIf="selectedWord">
-    <h2>Additional details ...</h2>
-    <h5>{{selectedWord.italian}}</h5>
-    <p>{{selectedWord.translation}}</p>
-    <p>{{selectedWord.usage}}</p>
-
-</div>
-
+<app-word-detail [word]="selectedWord"></app-word-detail>
 
 <div class="search-word">
     <input type="text" class="form-control" placeholder="search for the preferred modi di dire" name="search"
@@ -24,3 +17,5 @@
         <p>{{word.usage}}</p>
     </li>
 </ul>
+
+

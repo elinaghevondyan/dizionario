@@ -7,13 +7,15 @@ import { WordsComponent } from './words/words.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { WordDetailComponent } from './words/word-detail/word-detail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     WordsComponent,
-    DashboardComponent
+    DashboardComponent,
+    WordDetailComponent
   ],
   imports: [
     BrowserModule,
