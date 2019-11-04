@@ -10,11 +10,11 @@
 </div>
 
 <ul>
-    <li *ngFor="let word of words | filter:searchText" (click)="onSelect(word)">
-        <h2>{{word.id}}</h2>
+    <li *ngFor="let word of words | filter:searchText">
+        <a routerLink="/detail/{{word.id}}">
         <p>{{word.italian}}</p>
+        </a>
         <p>{{word.translation}}</p>
-        <p>{{word.usage}}</p>
     </li>
 </ul>
 

@@ -19,4 +19,34 @@ export const WORDS: Word[] = [
         translation: 'Քաղաքի կենտրոնից շատ հեռու կամ դժվար հասանելի վայրում ապրել',
         usage: 'Աշխարհի ծայրն ապրել'
     },
+    {
+        id: 4,
+        italian: 'A bizzeffe ',
+        translation: 'Շատ քանակություն',
+        usage: 'ժող. Շնից շատ լինել, գելից քիչ'
+    },
+    {
+        id: 5,
+        italian: 'Accettare con il beneficio d’inventario ',
+        translation: 'Մեծ կասկածանքով ընդունել նորությունը, հիմնավորումը',
+        usage: 'Ասածի մեջ ուրիշ բան փնտրել'
+    },
+    {
+        id: 6,
+        italian: 'Acqua in bocca! ',
+        translation: 'Ոչ մեկին գաղտնիք չասել',
+        usage: 'Բերանը ջուր առած'
+    },
+    {
+        id: 7,
+        italian: 'Affogare in un bicchiere d’acqua ',
+        translation: 'Որևէ փոքր դժվարությունից կորցնել ինքնակառավարումը ',
+        usage: 'Մի բաժակ ջրում խեղդվել'
+    },
+    {
+        id: 8,
+        italian: 'Aggiustare il tiro  ',
+        translation: 'Կայացրած  ընտրությունը հարմարեցնել  իրավիճակին',
+        usage: 'Ղեկը ցանկացած ուղղությամբ պտտել'
+    },
 ];

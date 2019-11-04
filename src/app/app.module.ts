@@ -8,6 +8,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { WordDetailComponent } from './words/word-detail/word-detail.component';
+import { MessagesComponent } from './messages/messages.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { WordDetailComponent } from './words/word-detail/word-detail.component';
     AppComponent,
     WordsComponent,
     DashboardComponent,
-    WordDetailComponent
+    WordDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
