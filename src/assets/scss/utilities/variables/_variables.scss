@@ -8,17 +8,55 @@ $font-secondary: "Times New Roman", serif;
 $font-icons: "Icomoon Project Name";
 
 //color usage
-$color-primary: #f99f07;
-$color-secondary: #1e3143;
+$color-primary: #0f8deb;
+$color-secondary: #b68c08;
 $color-tertiary: #818ea7;
-$color-highlight: #39a4cd;
-$color-warning: #e44c23;
+$color-highlight: #1ab063;
+$color-warning: #e2132d;
 
 //Descriptive Base Colors
-$color-text: #000;
+$color-text-light: #ffffff;
+$color-text-dark: #57626f;
+$color-black: #0b0d0c;
+$color-gray-dark: #1d2329;
+$color-gray-md: #333b42;
 
-//Text
+$color-palette: (
+		primary: $color-primary, secondary: $color-secondary, tertiary: $color-tertiary, highlight: $color-highlight,
+		warning: $color-warning, white: #FFFFFF,
+)!default;
+
+// Font-sizes
+$fs-xs: 12px; $fs-sm: 14px; $fs-md: 16px; $fs-lg: 18px; $fs-xl: 24px; $fs-xxl: 30px;
+
+$text-font-sizes: (
+		xs: $fs-xs, sm: $fs-sm, md: $fs-md, lg: $fs-lg, xl: $fs-xl, xxl: $fs-xxl
+) !default;
+
+// Text
 $base-font-size: 16px;
+
+// Heading sizes
+$hs-xs: 14px; $hs-sm: 18px; $hs-md: 22px; $hs-lg: 26px; $hs-xl: 32px; $hs-xxl: 38px;
+
+$heading-font-sizes: (
+		xs: $hs-xs, sm: $hs-sm, md: $hs-md, lg: $hs-lg, xl: $hs-xl, xxl: $hs-xxl
+) !default;
+
+// Font weights
+$fw-100: 100;
+$fw-200: 200;
+$fw-300: 300;
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;
+$fw-900: 900;
+
+$font-weights: (
+		100: $fw-100, 200: $fw-200, 300: $fw-300, 400: $fw-400, 500: $fw-500, 600: $fw-600, 700: $fw-700, 800: $fw-800, 900: $fw-900
+);
 
 //Border Radiuses
 $br-default: 4px;
@@ -26,6 +64,7 @@ $br-md: 10px;
 $br-lg: 30px;
 $br-rounded: 50%;
 $br-none: 0;
+
 
 // Transitions
 $trns-duration: .3s;
