@@ -1,20 +1,23 @@
-//paths
+// Paths
 $fonts-folder: "../fonts";
 $images-folder: '../img/';
 
-//fonts
-$font-primary: "Open Sans", serif;
-$font-secondary: "Times New Roman", serif;
+// Fonts
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Montserrat', sans-serif;
 $font-icons: "Icomoon Project Name";
 
-//color usage
+$font-family: (
+		primary: $font-primary, secondary: $font-secondary );
+
+// Color usage
 $color-primary: #0f8deb;
 $color-secondary: #b68c08;
 $color-tertiary: #818ea7;
 $color-highlight: #1ab063;
 $color-warning: #e2132d;
 
-//Descriptive Base Colors
+// Descriptive Base Colors
 $color-text-light: #ffffff;
 $color-text-dark: #57626f;
 $color-black: #0b0d0c;
@@ -58,7 +61,7 @@ $font-weights: (
 		100: $fw-100, 200: $fw-200, 300: $fw-300, 400: $fw-400, 500: $fw-500, 600: $fw-600, 700: $fw-700, 800: $fw-800, 900: $fw-900
 );
 
-//Border Radiuses
+// Border Radiuses
 $br-default: 4px;
 $br-md: 10px;
 $br-lg: 30px;

@@ -10,6 +10,12 @@
 	}
 }
 
+@each $key,$val in $font-family {
+	.font-#{$key} {
+		font-family: #{$val};
+	}
+}
+
 @each $key, $val in $font-weights {
 	.fw-#{$key} {
 		color: #{$val};
