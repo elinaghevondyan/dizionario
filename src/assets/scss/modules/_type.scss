@@ -15,3 +15,16 @@
 		color: #{$val};
 	}
 }
+
+@each $key, $val in $text-font-sizes {
+	.fs-#{$key} {
+		color: #{$val};
+	}
+}
+
+@each $key, $val in $heading-font-sizes {
+	.hs-#{$key} {
+		color: #{$val};
+	}
+}
+
